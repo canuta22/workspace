@@ -1,0 +1,17 @@
+package desafio.heranca;
+
+import javax.persistence.EntityManager;
+/
+public class PFisicaDao {
+
+	public void salvar(PessoaFisica pessoaFisica) {
+		EntityManager em = dao.getEntityManager();
+		em.getTransaction().begin();
+		em.persist(pessoaFisica);
+		em.getTransaction().commit();
+		em.close();
+	}
+
+
+	}
+}

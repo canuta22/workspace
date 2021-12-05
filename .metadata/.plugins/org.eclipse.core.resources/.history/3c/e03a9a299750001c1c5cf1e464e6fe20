@@ -1,0 +1,14 @@
+import desafio.heranca.PFisicaDao;
+import desafio.heranca.PessoaFisica;
+
+public class TestePessoaFisica {
+
+	public static void main(String[] args) {
+		
+		PFisicaDao pessoaDao = new PFisicaDao();
+		PessoaFisica pessoaFisica = new PessoaFisica();
+		
+
+	}
+
+}

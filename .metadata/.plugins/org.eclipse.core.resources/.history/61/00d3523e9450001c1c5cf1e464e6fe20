@@ -1,0 +1,11 @@
+package desafio.heranca;
+
+import javax.persistence.Entity;
+import javax.persistence.EntityManager;
+
+public class PFisicaDao {
+
+	public void salvar(pessoaFisica pessoaFisica) {
+		EntityManager em = JPAUtil.
+	}
+}

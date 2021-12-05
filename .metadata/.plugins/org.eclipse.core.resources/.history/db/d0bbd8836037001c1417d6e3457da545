@@ -1,0 +1,31 @@
+package jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class DAO {
+
+	private Connection conexao;
+	
+	public int incluir(String sql, Object... atributos) {
+		try {
+			PreparedStatement stmt = getConexao().prepareStatement(sql);
+		} catch(SQLException e){
+			throw new RuntimeException(e);
+		}
+	}
+	
+	private Connection getConexao() {
+		try {
+			if(conexao != null && !conexao.isClosed()) {
+				return conexao;
+			}
+		} catch (SQLException e) {
+			
+		}
+		
+		conexao = FabricaConexao.getConexao();
+		return conexao;
+	}
+}

@@ -1,0 +1,14 @@
+package modelo.consulta;
+
+public class NotaFilme {
+
+	private double media;
+
+	public NotaFilme(double media) {
+		super();
+		this.media = media;
+	}
+	
+	
+	
+}

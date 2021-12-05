@@ -1,0 +1,7 @@
+package jdbc;
+
+public class DAOteste {
+	public static void main(String[] args) {
+
+	}
+}

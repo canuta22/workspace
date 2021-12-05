@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="MIXED" key="ResetTargetSelectionDialog.resetType"/>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="http://github.com/canuta22/campo-minado-swing"/>
+		<item value="git://github.com/canuta22/campo-minado-swing"/>
+		<item value="https://github.com/canuta22/campo-minado-swing"/>
+		<item value="https://github.com/canuta22/campo-minado-swing#campo-minado-swing"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="canuta22 &lt;canuta22@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="canuta22 &lt;canuta22@gmail.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item value="538" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="728" key="DIALOG_HEIGHT"/>
+		<item value="422" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\Francis\workspace\exercicios-jpa\.git">
+			<item value="false"/>
+			<item value="canuta22 &lt;canuta22@gmail.com&gt;"/>
+			<item value="Adicionando projeto exercicios-jpa"/>
+			<item value="canuta22 &lt;canuta22@gmail.com&gt;"/>
+			<item value="28fa041186f2ec0df1ddffd6974350981ece75f1"/>
+			<item value="0"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>

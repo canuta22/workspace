@@ -1,0 +1,10 @@
+package teste.heranca;
+
+public class NovoAluno {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

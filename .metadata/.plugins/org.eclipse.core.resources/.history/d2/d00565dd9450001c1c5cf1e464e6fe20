@@ -1,0 +1,24 @@
+package desafio.heranca;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@SuppressWarnings("serial")
+@Entity
+@Table(name="pessoa_juridica")
+public class PessoaJuridica extends Pessoa{
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	
+	@Column(name="id")
+	private long id;
+	private String cnpj;
+	private String razaoSocial;
+	private String inscricaoEstadual;
+	private String matricula;
+
+}

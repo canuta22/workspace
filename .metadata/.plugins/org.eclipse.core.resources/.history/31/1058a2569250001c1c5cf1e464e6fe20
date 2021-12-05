@@ -1,0 +1,12 @@
+package desafio.heranca;
+
+import javax.persistence.MappedSuperclass;
+
+@MappedSuperclass
+public class Pessoa {
+
+	private String nome;
+	private String endereco;
+	private String cep;
+	private String obs;
+}
